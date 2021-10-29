@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+}
+
+h2{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.733);
+    line-height: 3rem;
+    /* text-align: center; */
+}
+form{
+    display: grid;
+    width: auto;
+    height: auto;
+    margin: 4rem;
+    justify-content : center;
+}
+
+.form-box{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: rgba(168, 10, 168, 0.575) 10px 10px 20px 3px,
+    rgba(61, 43, 224, 0.616) -5px -5px 20px -1px
+
+    /* height: 90vh; */
+}
+
+.form-box:hover{
+    transform: scale(1.1);
+
+ }
+
+label{
+    display: block;
+    padding: 1.5rem;
+}
+
+
+.name{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 25vw;
+    height: 1.5rem;
+}
+
+.name:hover{
+    transform: scale(1.1);
+ }
+
+.email{
+      border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 25vw;
+    height: 1.5rem;
+}
+
+.email:hover{
+    transform: scale(1.1);
+ }
+
+.services{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 25vw;
+    height: 1.5rem;
+}
+
+.services:hover{
+    transform: scale(1.1);
+ }
+
+.budget{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 25vw;
+    height: 1.5rem;
+}
+
+.budget:hover{
+    transform: scale(1.1);
+ }
+
+.text-area{
+    padding: 1rem;
+    margin: 0.5rem;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 25vw;
+    
+}
+
+.text-area:hover{
+    transform: scale(1.1);
+ }
+
+.submit{
+    display: grid;
+    width: 25vw;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    height: 2.5rem;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    background: linear-gradient( rgba(223, 19, 223, 0.575), rgba(61, 40, 248, 0.712))
+}
+
+
+.submit:hover{
+   transform: scale(1.1);
+   
+
+
+   /* background:rgba(168, 10, 168, 0.575) ; */
+   /* background-color:rgba(61, 43, 224, 0.616) ; */
+   /* background-color: rgba(168, 10, 168, 0.575) 10px 10px 20px 3px,
+    rgba(61, 43, 224, 0.616) -5px -5px 20px -1px
+  */
+}

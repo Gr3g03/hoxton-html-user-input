@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-box">
+        <label> 
+            <h2>What's your name?</h2>
+            <input class=" name" type="text" placeholder="Enter your name" required>
+        </label>
+        
+
+        <label > 
+            <h2>  What's your email address?</h2>
+            <input class="email"  type="email" placeholder="Enter your email address" required>
+        </label>
+     
+
+        <label> 
+            <h2>What service are you looking for?</h2>
+            <select class="services">
+                <option value="service1" >Choose a service</option>
+                <option value="service2">Choose a service1</option>
+                <option value="service3">Choose a service</option>
+                <option value="service4">Choose a service</option>
+                <option value="service5">Choose a service</option>
+            </select>
+        </label>
+        
+        <label  > 
+            <h2> What is your budget?</h2>
+           
+            <select class="budget" required>
+                <option value="service1">Select budget</option>
+                <option value="service2">Broke</option>
+                <option value="service3">Super Broke</option>
+                <option value="service4">Extra broke</option>
+            </select>
+        </label>
+      
+
+        <label >
+            <h2> Anything else you'd like to tell us</h2>
+            <textarea  class="text-area" cols="40" rows="5" placeholder="Your message here..." ></textarea>
+        </label>
+
+        <label  > 
+            I agree with the T&Cs.
+            <input class="checkbox" type="checkbox" required >
+        </label>
+
+        <label  >
+        <a class="submit" href="bye.html"> Submit</a>
+        <!-- <input class="submit" type="submit" > -->
+        </label>
+        </div>
+    </form>
+
+</body>
+</html>
